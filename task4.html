@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>task4</title>
+<style>
+*{padding:0;
+  margin:0;
+  }
+  
+html,body{background:#eff0f4;
+		  color:#FFF;
+		  width:100%;
+		  height:100%;
+		  font-size:16px;
+		  min-width:900px;
+	}
+.header{height:88px;
+        background:#5fc0cd;
+		width:100%;
+		text-align:center;
+		}
+.header div{
+            font-size:2em;
+			line-height:88px;
+						
+			}
+#close{margin-left:4%;
+       display:inline;
+	   float:left;
+       }
+#login{
+	   width:75%;
+	   display:inline;
+        }
+#register{float:right;
+          margin-right:4%;
+		  display:inline;
+        }
+		
+.phonenum,.lock{width:100%;
+          height:100px;
+		  line-height:100px;
+		  margin-top:16px;
+		  background:#ffffff;
+		  color:#eaedee;}
+.phonenum img,.lock img{vertical-align:middle;
+			  margin-left:5%;
+			  margin-right:5%;
+			  }
+
+					   
+#input_num,#input_password{font-size:2em;
+ 	       vertical-align:middle;
+		   height:52px;
+		   line-height:52px;
+		   border-left:2px solid #eaedee;
+		   width:76%;
+		   display:inline-block;
+		   padding-left:4.7%;
+          }
+
+.onload{width:100%;
+        height:100px;
+		background:#5fc0cd;
+		margin-top:68px;
+		font-size:2em;
+		line-height:100px;
+		text-align:center;}
+#lost{ float:right;
+       margin-right:4%;
+	   color:#5fc0cd;
+	   font-size:2rem;
+	   margin-top: 18px;}
+@media screen and (max-width:900px){
+											body{font-size:8px;}
+			                                }
+</style>
+</head>
+
+
+<body>
+    <div class="header">
+        <div id="close">关闭</div>
+        <div id="login">登陆</div>
+        <div id="register">注册</div>
+    </div>
+    
+    <div class="phonenum">
+    	<img src="../图片/task4/phone.png" alt="telephone_icon"/>
+        
+        <span id="input_num">请输入手机号</span>
+    </div>
+    
+    <div class="lock">
+    	<img src="../图片/task4/lock.png" alt="lock_icon"/>
+       
+        <span id="input_password">请输入密码</span>
+    </div>
+    
+    <div class="onload">登陆
+    </div>
+    
+    <p id="lost">忘记密码？</p>
+</body>
+</html>
